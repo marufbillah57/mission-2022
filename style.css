@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 25px;
+}
+
+.tomato-color{
+    color: #FF6347;
+}
+.red-color{
+    color: #FF0000;
+}
+
+#bg-grey{
+    background-color: #8B8585;
+    border-radius: 10px;
+}
+#bg-burlywood{
+    background-color: #DEB887;
+    border-radius: 10px;
+}
+#bg-brown{
+    background-color: #E7D5C6;
+    border-radius: 10px;
+}
+
+/* button css */
+.red-btn{
+    background-color: #FE2622;
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    padding-bottom: 60px;
+}
+
+/* focused area css */
+
+.focused-area{
+   padding-top: 80px;
+}
+.focused-content {
+    width: 40%;
+    margin-left: 10%;
+}
+.focused-img {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.focused-img img{
+    width: 80%;
+}
+#left-border{
+    border-left: 3px solid tomato;
+    padding-left: 20px;
+}
+
+/* my mission css */
+
+.mission-area{
+    text-align: center;
+}
+.all-mission{
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.single-mission {
+    width: 350px;
+    text-align: left;
+    padding: 15px;
+}
+.mission-img img{
+    width: 30%;
+}
+.content {
+    padding-left: 20px;
+}
+
+
+/* development css */
+
+.development-img{
+    width: 35%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.development-img img{
+    width: 80%;
+}
+
+.development-content{
+    width: 50%;
+    margin-right: 5%;
+}
+
+
+/* community css */
+
+.community-content{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.community-img{
+    width: 35%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.community-img img{
+    width: 80%;
+}
+
+/* newsletter-area */
+
+.newsletter-area {
+    width: 80%;
+    margin: auto;
+}
+.newsletter{
+    padding: 30px;
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.newsletter input{
+    padding: 10px 50px;
+}
+.subscribe-btn{
+    padding: 12px 30px;
+    background-image: linear-gradient(rgb(247, 26, 136), rgb(218, 27, 27)) ;
+    border: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* footer-area css  */
+
+.footer-content{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
